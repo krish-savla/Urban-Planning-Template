@@ -1,0 +1,122 @@
+/* Styles go here */
+.sentence{
+	display:inline-block;
+	margin: 5px;
+	float:left;
+	color:black;
+
+}
+.btn{
+	color:black;
+	background-color: #d3d5dd;
+	border-color: #4a454e;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+.content{
+	font-family: 'Times';
+	color: black;
+}
+h1{
+
+	text-align: center;
+	color: black;
+}
+
+#main_header{
+	padding-top: 20;
+	padding-bottom: 20;
+	background-color: #ececec;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 20px outset rgb(0, 0, 0);
+	position: relative;  
+	font-size: 25px;
+	font-family: Georgia;
+}
+
+h2{
+	/* text-decoration: underline; */
+	text-transform: uppercase;
+	font-family: "Georgia";
+	margin: 1%;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+
+h3 {
+	color: rgb(0, 0, 0);
+	padding-left: 20px;
+}
+tr{
+	color: black;
+	
+}
+
+.all_encomp{
+	background-color: #ececec;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	height: 100%;
+	overflow-y:auto;
+
+}
+
+#desc{
+	/* border-top: 1px outset rgb(0, 0, 0); */
+	border-bottom: 1px outset rgb(0, 0, 0);
+}
+
+#desc_text{
+	text-align: center;
+}
+#sen_class_1{
+	padding: 20px;
+	border: 5px outset rgb(0, 0, 0);
+	border-top: 20px outset rgb(0, 0, 0);
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	/* margin-right: 30px;
+	margin-left: 30px; */
+	background-color: #dbdbdb;
+}
+
+
+#aff_dis{
+	padding-top: 35px;
+}
+
+#answers{
+	font-style: italic;
+	font-size: 22px;
+	/* letter-spacing: 3px; */
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+	background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content_two {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+  }
